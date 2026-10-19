@@ -196,7 +196,7 @@ p{line-height:1.7;color:#cfc6bb;font-size:clamp(1rem,1.25vw,1.15rem)}
       <h1 class="rv" id="heroTitle"></h1>
       <p class="rv" data-i18n="hero_text"></p>
       <div class="ctas rv">
-        <a class="btn fill" href="#portfolio" data-go="3" data-i18n="hero_cta1"></a>
+        <a class="btn fill" href="#portfolio" data-go="2" data-i18n="hero_cta1"></a>
         <a class="btn" href="#contact" data-go="5" data-i18n="hero_cta2"></a>
       </div>
     </div>
@@ -227,15 +227,6 @@ p{line-height:1.7;color:#cfc6bb;font-size:clamp(1rem,1.25vw,1.15rem)}
     </div>
   </div></div></section>
 
-  <!-- 3. SERVICES -->
-  <section class="slide" id="services"><div class="inner"><div class="wrap">
-    <div class="kicker rv" data-i18n="services_kicker"></div>
-    <h2 class="rv" data-i18n="services_title"></h2>
-    <div class="orn rv"><i></i></div>
-    <div class="grid3" id="serviceGrid"></div>
-    <p class="note rv" data-i18n="services_note"></p>
-  </div></div></section>
-
   <!-- 4. PORTFOLIO -->
   <section class="slide" id="portfolio"><div class="inner"><div class="wrap">
     <div class="kicker rv" data-i18n="portfolio_kicker"></div>
@@ -250,6 +241,15 @@ p{line-height:1.7;color:#cfc6bb;font-size:clamp(1rem,1.25vw,1.15rem)}
     <h2 class="rv" data-i18n="reviews_title"></h2>
     <div class="orn rv"><i></i></div>
     <div class="grid3" id="reviewGrid"></div>
+  </div></div></section>
+
+  <!-- 3. SERVICES -->
+  <section class="slide" id="services"><div class="inner"><div class="wrap">
+    <div class="kicker rv" data-i18n="services_kicker"></div>
+    <h2 class="rv" data-i18n="services_title"></h2>
+    <div class="orn rv"><i></i></div>
+    <div class="grid3" id="serviceGrid"></div>
+    <p class="note rv" data-i18n="services_note"></p>
   </div></div></section>
 
   <!-- 6. CONTACT -->
@@ -286,7 +286,7 @@ const CONFIG = {
 
 const T = {
 ru:{
-  overview:"Обзор всех разделов", nav:["Начало","Обо мне","Услуги","Портфолио","Отзывы","Контакты"],
+  overview:"Обзор всех разделов", nav:["Начало","Обо мне","Портфолио","Отзывы","Услуги","Контакты"],
   hero_kicker:"веб-дизайн и разработка", hero_title:"Сайты с <em>характером</em>",
   hero_text:"Делаю сайты-визитки, портфолио и сайты-приглашения — со вкусом, с настроением и без шаблонной скуки.",
   hero_cta1:"Смотреть работы", hero_cta2:"Связаться",
@@ -311,7 +311,7 @@ ru:{
   copied:"номер скопирован", soon:"скоро"
 },
 en:{
-  overview:"Overview of all sections", nav:["Home","About","Services","Portfolio","Reviews","Contact"],
+  overview:"Overview of all sections", nav:["Home","About","Portfolio","Reviews","Services","Contact"],
   hero_kicker:"web design & development", hero_title:"Websites with <em>character</em>",
   hero_text:"I design and build business-card sites, portfolios and invitation sites — with taste, mood and zero template boredom.",
   hero_cta1:"See my work", hero_cta2:"Get in touch",
@@ -336,7 +336,7 @@ en:{
   copied:"number copied", soon:"soon"
 },
 de:{
-  overview:"Übersicht aller Bereiche", nav:["Start","Über mich","Leistungen","Portfolio","Stimmen","Kontakt"],
+  overview:"Übersicht aller Bereiche", nav:["Start","Über mich","Portfolio","Stimmen","Leistungen","Kontakt"],
   hero_kicker:"Webdesign & Entwicklung", hero_title:"Websites mit <em>Charakter</em>",
   hero_text:"Ich gestalte und entwickle Visitenkarten-Websites, Portfolios und Einladungsseiten – mit Geschmack, Stimmung und ohne Template-Langeweile.",
   hero_cta1:"Meine Arbeiten", hero_cta2:"Kontakt aufnehmen",
